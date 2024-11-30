@@ -16,8 +16,8 @@
       background-color: white; 
     }
     .card {
-      height: 2400px; 
-      width: 2216px; 
+      height: 1600px; 
+      width: 750px; 
       background-color: hsl(257, 40%, 49%); 
     }
     h1, p {
@@ -25,12 +25,27 @@
     }
     button {
       border-radius: 65%; 
-      height: 156px; 
-      width: 335px; 
-      margin-left: 916px; 
+      height: 40px; 
+      width: 200px; 
+      margin-left: 215px; 
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 65px;
+      position: relative; 
+      left: 224px;
     }
     .logo {
-      margin-bottom: 405px; 
+      /*margin-bottom: 245px; 
+      position: absolute;*/ 
+      z-index: 9; 
+    }
+    .bg-mobile {
+      /*position: absolute;*/ 
+      z-index: 8; 
     }
     button {
       color: hsl(257, 40%, 49%); 
@@ -44,19 +59,142 @@
       object-fit: contain; 
       margin-top: 55px; 
     }
+    .mockups {
+      /*margin-top: -155px; 
+      margin-left: 35px;
+      position: absolute;*/ 
+      z-index: 7; 
+    }
+    .three-icons {
+      /*margin-right: 116px; 
+      margin-top: 16px; 
+      position: absolute;*/ 
+      z-index: 1; 
+    }
+    .content1 {
+      /*position: absolute;*/ 
+      z-index: 6; 
+    }
+    .content2 {
+      /*position: absolute;*/ 
+      z-index: 5; 
+    }
+    .content3 {
+      /*position: absolute;*/ 
+      z-index: 4; 
+    }
+    .content4 {
+      /*position: absolute;*/ 
+      z-index: 3; 
+    }
+    .register {
+      /*position: absolute;*/ 
+      z-index: 2; 
+    }
+    @media only screen and (max-width: 900px) {
+      .card {
+      width: 3324px; 
+      height: 1000px;
+    }
+    h1 {
+      position: relative; 
+      bottom: 200px;
+      right: 600px;  
+    }
+    p {
+      position: relative; 
+      bottom: 200px; 
+      right: 600px; 
+    }
+    button {
+      position: relative; 
+      left: 845px; 
+      bottom: 180px; 
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 65px;
+      height: 40px; 
+      width: 200px; 
+    }
+    .three-icons {
+      position: relative;  
+      right: 100px;
+    }
+    .facebook, .twitter, .instagram {
+      height: 55px; 
+      width: 55px; 
+    }
+    .mockups {
+      position: relative; 
+      top: 300px; 
+      right: 669px;
+    }
+    .logo {
+      margin-bottom: 245px; 
+      position: relative;
+  }
+}
+    /*@media only screen and (min-width: 321px) and (max-width: 768px) {
+      .card {
+      width: 3324px; 
+      height: 1000px;
+      }
+      h1 {
+        position: relative; 
+        bottom: 200px; 
+        right: 600px;  
+      }
+      p {
+        position: relative; 
+        bottom: 200px;  
+        right: 600px;  
+      }
+      button {
+        position: relative; 
+        left: 845px;
+        bottom: 180px; 
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 65px;
+        height: 40px; 
+        width: 200px; 
+      }
+      .three-icons {
+        position: relative; 
+        right: 100px; 
+      }
+      .facebook, .twitter, .instagram {
+        height: 55px; 
+        width: 55px; 
+    }
+      .mockups {
+        position: relative; 
+        top: 300px; 
+        right: 669px; 
+      }
+    }*/
   </style>
 </head>
 <body>
 <div class="card">
   <img src="images/logo.svg" class="logo"> 
-  <img src="images/bg-mobile.svg">
-  <img src="images/illustration-mockups.svg">
-  <h1>Build The Community <br/> Your Fans Will Love</h1>
+  <img src="images/bg-mobile.svg" class="bg-mobile">
+  <img src="images/illustration-mockups.svg" class="mockups">
+  <h1 class="content1">Build The Community <br/> Your Fans Will Love</h1>
   
-  <p>Huddle re-imagines the way we build <br/> communities. You have a voice, but so <br/> does your audience. 
-  Create connections <br/> with your users as you engage in <br/> genuine discussion.</p> 
+  <p class="content2">Huddle re-imagines the way we build communities. You have <br/></p>
+  <p class="content3">a voice, but so does your audience. Create connections with <br/></p>
+  <p class="content4">your users as you engage in genuine discussion.</p> 
 
-  <button>Register</button>
+  <button class="register">Register</button>
   <div class="three-icons">
   <img src="images/facebookicon.png" class="facebook">
   <img src="images/twittericon.png" class="twitter">
@@ -71,6 +209,218 @@
   </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
